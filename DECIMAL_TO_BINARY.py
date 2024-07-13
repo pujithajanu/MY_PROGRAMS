@@ -1,0 +1,10 @@
+#13.DECIMAL_TO_BINARY
+decimal=int(input())
+binary=[]
+while(decimal>0):
+    rem=decimal%2
+    binary.append(rem)
+    decimal=decimal//2
+binary.reverse()
+str1=''.join(map(str,binary))
+print(str1)
