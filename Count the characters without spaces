@@ -1,0 +1,14 @@
+
+st=input() 
+c=0
+for i in st:
+    if(i==' '):
+        continue
+    c+=1
+print(c) 
+    
+Output:
+urffb hf
+7
+
+=== Code Execution Successful ===
