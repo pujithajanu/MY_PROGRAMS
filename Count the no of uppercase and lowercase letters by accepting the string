@@ -1,0 +1,10 @@
+st=input() 
+uc, lc=0, 0
+for i in st:
+    if i in ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']:
+        uc+=1
+    if i in ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']:
+        lc+=1
+print('upper case letters count:', uc) 
+print('lower case letters count:', lc) 
+
