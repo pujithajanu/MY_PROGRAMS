@@ -1,0 +1,4 @@
+st= list(input ().split())
+st.reverse() 
+st=' '.join(st)
+print(st)
