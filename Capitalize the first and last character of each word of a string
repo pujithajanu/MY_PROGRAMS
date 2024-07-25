@@ -1,0 +1,9 @@
+st=list(input().split())
+st1=[]
+for i in st:
+    first_char=i[0].upper()
+    last_char=i[-1].upper()
+    middle=i[1:-1]
+    st1.append(first_char+middle+last_char)
+st2=' '.join(map(str,st1))
+print(st2)
