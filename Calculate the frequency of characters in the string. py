@@ -1,0 +1,3 @@
+st=input() 
+c=input() 
+print(st.count(c)) 
