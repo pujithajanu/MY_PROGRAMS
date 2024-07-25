@@ -1,0 +1,9 @@
+n=int(input())
+li=list(map(int,input().split()))
+k=int(input())
+s=0
+for _ in li[k:n+1]:
+    p=abs(li[k]-li[k-1])
+    s=s+p
+    k+=1
+print(s)
