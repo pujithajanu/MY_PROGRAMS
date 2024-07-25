@@ -1,0 +1,15 @@
+n=int(input())
+k=int(input())
+sum1=0
+li=[]
+for i in range(n):
+    li.append(int(input()))
+for i in range(k):
+    s=0
+    for j in li:
+        s=s+(i^j)
+    if(s>sum1):
+        sum1=s
+print(sum1)
+
+
