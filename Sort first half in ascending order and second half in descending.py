@@ -1,0 +1,9 @@
+li=list(input().split())
+l=len(li)
+l1=li[:l//2]
+l2=li[(l//2)+1:]
+L=[]
+L.append(sorted(l1))
+l2.sort(reverse=True)
+L.append(l2)
+print(L)
