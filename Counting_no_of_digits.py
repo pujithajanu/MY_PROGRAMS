@@ -1,4 +1,4 @@
-#with recursion
+#without recursion
 n=int(input()) 
 count=0
 if(n>0) :
